@@ -1,0 +1,35 @@
+
+Angular commands
+- ng serve -o											Init server						
+- ng new nombre_project									Command to create a new angular project
+- ng generate component components/component_name		Create a new component in the forlder components
+- ng generate component components/body --module app 	En caso de presentarse un error
+- ng generate class class_name							Create a class
+- ng generate module module_name						Create a moduler
+- ng generate service service_name						Create a ts script
+- ng serve -p 4201										Demploy the app in port 4201
+- cd generate interface models/generic					Crea una nueva interface
+
+- npm install --save sweetalert2						Install sweet, --save to save the dependency in the package the package in json 
+- ng add @angular/material								Instala angular material
+
+- ng generate component components/course/course-form --flat --skipTests=true		--flat para no crear un nuevo folder
+														--spec=false -is					No test file and inline style
+- ng generate pipe pipes/myPipe							Para crear un pipe
+														
+Install Bootstrap to anguler project
+- In root project folder
+ - npm install bootstrap jquery popper.js 
+	[Wee nedd add the three dependencies]
+	Then we need to add the path where dependencies is in angular.json
+		in projects->architect->build->options in styles: {} and scripts: {} in order like:
+
+		"styles": [
+            "src/styles.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+		],
+		"scripts": [
+			"./node_modules/jquery/dist/jquery.slim.min.js",			First
+			"./node_modules/popper.js/dist/umd/popper.min.js",			Second
+			"./node_modules/bootstrap/dist/js/bootstrap.min.js"			Third
+		]
