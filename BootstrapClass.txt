@@ -1,0 +1,14 @@
+Bootstrap Class
+- row										Declara una nueva fila	
+- col										Declara una nueva columna
+
+@Alinear items horizontal
+- align-items-center						Alinea todos los items del elementos padre al centro
+- align-self-start|center|end				Alinea cada elemento al inicio, al centro o al final
+
+@Alinear items vertical
+- justify-content-start						Alinea los items al inicio
+- justify-content-center					Alinea los items al centro
+- justify-content-end						Alinea los items al final
+- justify-content-around					Alinea los elementos dividiendo y posicionando los items al centro
+- justify-content-between					Alinea los elementos dividiendo el espacio y posiciona los items al final
