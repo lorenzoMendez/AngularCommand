@@ -1,0 +1,20 @@
+Bootstrap Class
+- row											Declara una nueva fila	
+- col											Declara una nueva columna¬ Abarca las 12 columnas si no se definen
+- col-4											Abarca 4 columnas
+
+@Alinear items horizontal
+- row align-items-center						Alinea todos los items del elementos padre al centro, funciona en la fila
+- col align-self-start|center|end				Alinea cada elemento al inicio, al centro o al final, funciona en la columna
+
+@Alinear items vertical, solo funcionan en el row
+- row justify-content-start						Alinea los items al inicio
+- row justify-content-center					Alinea los items al centro
+- row justify-content-end						Alinea los items al final
+- row justify-content-around					Alinea los elementos dividiendo y posicionando los items al centro
+- row justify-content-between					Alinea los elementos dividiendo el espacio y posiciona los items al final
+
+@Offset
+- offset-2										Agrega dos columnass al inicio del item
+- offset-1										Agrega un espacio al inicio, es decir, a la izquierda
+- offset-md-4									A partir de una pantalla mediana el offset sera de 4 columnas
