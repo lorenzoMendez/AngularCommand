@@ -12,6 +12,7 @@ Angular commands
 
 - npm install --save sweetalert2						Install sweet, --save to save the dependency in the package the package in json 
 - ng add @angular/material								Instala angular material
+- ng add @fortawesome/angular-fontawesome@<version>		Agrega fondawesome al proyecto | https://github.com/FortAwesome/angular-fontawesome/tree/b252e314bcba5c0b803368351eb722b2ccb76982
 
 - ng generate component components/course/course-form --flat --skipTests=true		--flat para no crear un nuevo folder
 														--spec=false -is					No test file and inline style
@@ -33,3 +34,7 @@ Install Bootstrap to anguler project
 			"./node_modules/popper.js/dist/umd/popper.min.js",			Second
 			"./node_modules/bootstrap/dist/js/bootstrap.min.js"			Third
 		]
+
+
+- Router - Object										Para trabajar con rutas, redireccionamientos, etc.
+- ActivatedRoute										Para trabajar con la ruta activa, como leer parametros
