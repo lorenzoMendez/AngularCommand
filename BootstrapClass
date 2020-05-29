@@ -8,9 +8,45 @@ Los tamaños de Columnas en Bootstrap son:
 	.col-xl         Extra Largo (Extra Large) - Computadoras                    Mas de 1200px
 
 @@ PRINCIPALES CLASES DE BOOTSTRAP
+- container										Contenedor de clases de Bootstrap con items centrados
 - row											Declara una nueva fila	
 - col											Declara una nueva columna¬ Abarca las 12 columnas si no se definen
 - col-4											Abarca 4 columnas
+- container-fluid								Contenedor de clases de Bootstrap con items abarcando toda la pantalla
+- w-100											Agrega un width del 100% para que el siguiente elemento se ponga en la siguiente fila
+- no-gutters									No agrega los padding que agrega bootstrap por default
+- img-fluid										Que la imagen abarque el 100% del elemento padre
+- img-fluid float-right rounded					Imagen ajustable, que flote a la izquierda y esquinas redondeadas
+- img-thumbnail									Imagen con esquinas redondeadas y sombras blancas
+- figure 										Para trabajar con imagenes
+- figure-caption								Pone un texto descriptivo a un pie de imagen
+
+@Tabla - Etiquetas
+- table											Etiqueta de tabla
+- tr											Etiqueta para una fila
+- td											Etiqueta de una celda de tabla
+@Tabla - Clases
+- table											Asigna una apariencia de tabla
+- table-dark             						Aplicar colores oscuros a la tabla
+- table-striped          						Alterna colores entra cada fila
+- table-bordered         						Agregar bordes a la tabla
+- table-hover            						Agrega un over a la fila
+- table-sm               						Hace la tabla mas pequeña eliminando paddings
+- table-responsive-xx    						Permite adaptar la tabla dispositivos moviles								
+- thead-light
+- thead-dark 									Titulos de columna en negros
+- table-active
+- table-success
+- table-warning
+- table-danger
+- table-info
+
+@Colores de Fondo
+- bg-primary
+- table-success
+- table-warning
+- table-danger
+- table-info
 
 @Alinear items horizontal
 - row align-items-center						Alinea todos los items del elementos padre al centro, funciona en la fila
@@ -38,3 +74,35 @@ Los tamaños de Columnas en Bootstrap son:
 - col d-none d-md-block d-lg-none				No mostrar todos los tamaños, muestra siempre el mediano y ocultar todos a partir del tamaño largo
 - col d-none d-lg-block d-xl-none				No mostrar todos los tamaños, mostrar siempre el largo y ocultar todos a partir del tamaño extra largo
 - col d-none d-xl-block							Ocultar todos y solo mostrar a partir del tamaño extra largo
+
+@Tipografia
+- text-mute										Agrega un texto con un color gris apagado
+- h[1-6]										Agrega un estilo de encabezado h1-h6 al texto
+- display-[1-6]									Agrega un estilo de encabezado mas grande
+- lead											Resalta un parrafo con estilo mas grande y ligero
+- text-justify									Justifica un texto
+- text-left										Alinea texto a la izquierda
+- text-center									Centra el texto
+- text-right									Alinea el texto a la derecha
+- card											Contenedor de texto
+- card-body										El cuerpo del contendor
+- text-lowercase								Pone en minusculas el texto
+- text-uppercase								Pone en mayusculas el texto
+- text-capitalize								Capitaliza el texto
+- font-weight-bold								Pone un texto en negritas
+- font-weight-normal							Pone un texto normal
+- font-italic									Pone un texto en italica
+- blockquote									Para hacer una cita
+- blockquote-footer								Citar el pie o autor de la cita
+- text-white									Cambiar el color del texto
+
+Etiquetas HTML 5
+- mark											Resalta un texto
+- del											Subraya un texto
+- strong										Negritas
+- u 											Undeline
+- blockquote									Citas
+- code											Para escribir bloques de codigo
+- kbd											Resalta una combinacion de tecla ejemplo: Crtl + C
+- figcaption									Para poner un pie a un texto
+
