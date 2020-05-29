@@ -31,3 +31,10 @@ Los tamaños de Columnas en Bootstrap son:
 @Ordenar columnas
 - order-[1-12]									Ordena la columna, a la posicion especificada
 - order-md-[1-2]								A partir de una pantalla mediana cambiar el orden
+
+@Responsive Utilities, clases display (d)
+- col d-block d-sm-none							d-block (display-block), que se muestre en pantalla todo el tiempo, d-sm-none, ocultar todos a partir del tamaño small
+- col d-none d-sm-block d-md-none				No mostrar todos los tamaños, mostrar siempre el pequeño e ignorar el mediano en adelante
+- col d-none d-md-block d-lg-none				No mostrar todos los tamaños, muestra siempre el mediano y ocultar todos a partir del tamaño largo
+- col d-none d-lg-block d-xl-none				No mostrar todos los tamaños, mostrar siempre el largo y ocultar todos a partir del tamaño extra largo
+- col d-none d-xl-block							Ocultar todos y solo mostrar a partir del tamaño extra largo
