@@ -7,6 +7,9 @@ Angular commands
 - ng generate class class_name							Create a class
 - ng generate module module_name						Create a moduler
 - ng generate service service_name						Create a ts script
+- ng generate component components/ngStyle 
+	-it -is --skipTests=true							[it = inline template, is = inline style] deja todo en el mismo archivo ts 
+- ng generate directive directive_name					Crea una nueva directiva
 - ng serve -p 4201										Demploy the app in port 4201
 - cd generate interface models/generic					Crea una nueva interface
 
@@ -38,3 +41,24 @@ Install Bootstrap to anguler project
 
 - Router - Object										Para trabajar con rutas, redireccionamientos, etc.
 - ActivatedRoute										Para trabajar con la ruta activa, como leer parametros
+
+@Directivas
+- *ngIf
+- *ngFor
+- ngStyle
+- [style.fontSize]="'10px'"								Modifica el tamaño de una tipografia
+- [style.fontSize.px]="10"								Modifica el tamaño de una tipografia en pixeles
+- ngClass
+
+@fontawesome
+- Importar los iconos
+	import { fa[NombreIcono] } from '@fortawesome/free-solid-svg-icons';
+- Renderizar los iconos en el template
+	<fa-icon [icon]="faMinus"></fa-icon>
+
+- <fa-icon [spin]="loading ? true : false" 				Muestra imagen de guardar y con click muestra un Sync con animacion
+	[icon]="loading ? faSyncAlt : faSave "></fa-icon>
+
+
+
+
