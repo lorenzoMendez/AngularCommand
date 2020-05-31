@@ -78,7 +78,7 @@ Los tamaños de Columnas en Bootstrap son:
 @Tipografia
 - text-mute										Agrega un texto con un color gris apagado
 - h[1-6]										Agrega un estilo de encabezado h1-h6 al texto
-- display-[1-6]									Agrega un estilo de encabezado mas grande
+- display-[1-4]									Agrega un estilo de encabezado mas grande
 - lead											Resalta un parrafo con estilo mas grande y ligero
 - text-justify									Justifica un texto
 - text-left										Alinea texto a la izquierda
